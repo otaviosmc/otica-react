@@ -1,0 +1,39 @@
+.contato-bg {
+  background-color: #05031b;
+  color: white;
+}
+.box-contatos {
+  text-align: center;
+  padding: 50px 0px;
+}
+.box-contatos h2 {
+  text-transform: uppercase;
+}
+.contato-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 40px;
+}
+.contatos div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contatos img {
+  width: 24px;
+}
+
+@media (max-width: 768px) {
+  .contato-bg {
+    padding: 20px 0px;
+  }
+}
+@media (max-width: 500px) {
+  .contatos {
+    text-align: center;
+    width: 100%;
+  }
+}

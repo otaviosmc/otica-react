@@ -1,0 +1,26 @@
+.bg-banner {
+  background-image: url("/public/assets/capa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background: linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%); */
+  height: 80vh;
+}
+.box-banner {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "anybody", cursive;
+}
+.box-banner h1 {
+  color: #fff;
+  padding: 0px;
+  text-transform: uppercase;
+}
+.box-banner p {
+  color: #bfc1c9;
+  font-size: 28px;
+}
